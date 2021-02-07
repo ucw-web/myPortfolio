@@ -180,9 +180,9 @@ html{
 
 
 /*About section*/
-section{
+/* section{
     padding: 100px 0;
-}
+} */
 .about, footer{
     font-family: 'Poppins',sans-serif;
 }
