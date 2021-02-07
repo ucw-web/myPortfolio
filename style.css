@@ -39,13 +39,13 @@ html{
 }
 
 .navbar .logo a{
-    color: crimson;
+    color: black;
     font-size: 35px;
     font-weight: 600;
 }
 
 .navbar .logo a span{
-    color: crimson;
+    color: black;
     transition: all 0.3s ease;
 }
 
@@ -159,7 +159,7 @@ html{
 }
 .home .home-content .icons i{
     margin-right: 20px;
-    color: #111;
+    color: rgb(218, 200, 200);
     transition: all 0.3s ease;
 }
 .home .home-content .icons i:hover{
