@@ -740,7 +740,8 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: cyan;
+        background-color: #008c8c;
+        background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
