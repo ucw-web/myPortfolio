@@ -279,6 +279,7 @@ section{
     color: white;
     text-shadow: 0 3px 3px black;
     outline: none;
+    user-select: none;
     transition-property: all;
     transition-duration: 0.4s;
     overflow: hidden;
