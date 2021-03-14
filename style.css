@@ -278,6 +278,7 @@ section{
     height: 100%;
     color: white;
     text-shadow: 0 3px 3px black;
+    outline: none;
     transition-property: all;
     transition-duration: 0.4s;
     overflow: hidden;
