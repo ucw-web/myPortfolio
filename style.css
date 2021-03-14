@@ -141,25 +141,29 @@ body{
     justify-content: space-between;
 }
 .home .home-content .text-1{
-    color: black;
+    color: rgb(2, 2, 49);
     font-size: 26px;
     font-weight: 500;
+    text-shadow: 0 1px 3px white;
 }
 .home .home-content .text-2{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
+    text-shadow: 0 3px 5px white;
     
 }
 .home .home-content .text-3{
-    color: #111;
+    color: rgb(2, 2, 49);
     font-size: 40px;
     margin: 5px auto;
+    text-shadow: 0 2px 3px white;
 }
 .home .home-content .text-3 span{
-    color: rgb(245, 132, 27);
+    color: crimson;
     font-weight: 500;
+    text-shadow: 0 2px 5px black;
 }
 .home .home-content .icons{
     margin: 40px 0;
@@ -167,12 +171,14 @@ body{
 .home .home-content .icons i{
     margin-right: 20px;
     color: rgb(252, 239, 223);
-    transition: all 0.5s ease-out;
+    text-shadow: 0 3px 3px black;
+    transition: all 0.5s ease-in-out;
 }
 .home .home-content .icons i:hover{
     -webkit-transform: rotateZ(720deg);
     -moz-transform: rotateZ(720deg);
     transform: rotateZ(720deg);
+    text-shadow: none;
 }
 .home .home-content .left{
     width: 55%;
