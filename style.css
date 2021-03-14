@@ -263,7 +263,7 @@ section{
 .button-container{
     margin: 20px;
     width: 250px;
-    height: 50px;
+    line-height: 50px;
 }
 .button{
     cursor: pointer;
@@ -289,7 +289,9 @@ section{
     border-radius: 100px;
     box-shadow: 0 0 5px white, 0 0 10px white;
 }
-.button:focus {outline:0;}
+.button:focus {
+    outline: none !important;
+}
 .button::before,.button::after
 {
     position: absolute;
