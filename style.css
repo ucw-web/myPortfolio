@@ -11,7 +11,11 @@ html{
     background-color: #800080;
     background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
 }
-
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -256,8 +260,64 @@ section{
 .about .about-content .right p{
     text-align: justify;
 }
+.button-container{
+    margin: 20px;
+    width: 250px;
+    height: 50px;
 
-.about .about-content .right a{
+}
+.button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-shadow: 0 3px 3px black;
+    transition-property: all;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 100px;
+    box-shadow: 0 0 5px white, 0 0 10px white;
+}
+.button::before,.button::after
+{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: skewX(20deg);
+    z-index: -1;
+}
+.button::before{
+    left: -110%;
+    background-color: rgba(255, 0, 0, 0.589);
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.button::after{
+    right: -110%;
+    background-color: rgba(255, 166, 0, 0.616);
+    transition-property: all;
+    transition-duration: 0.4s;
+}
+.button:hover{
+    box-shadow: 5px 5px 20px white;
+    text-shadow: 0 3px 2px black;
+}
+.button:hover::before{
+    left: -50%;
+}
+.button:hover::after{
+    right: -50%;
+}
+/* .about .about-content .right a{
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -273,7 +333,7 @@ section{
 .about .about-content .right a:hover{
     color: crimson;
     background: none;
-}
+} */
 
 /*Skills Section*/
 section{
@@ -472,19 +532,23 @@ section{
 #projects .project-info p {
 	color: white;
 }  
-#projects .project-info .proj-btn{
+.proj-btn{
     display: inline-block;
-    background: #fff;
-    color:#111;
+    background: transparent;
+    border: 1px solid crimson;
+    color: crimson;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 25px;
-    margin-top: 20px;
+    margin-top: 25px;
     border-radius: 6px;
     transition: all 0.3s ease;
 }
-#projects .project-info .proj-btn:hover{
-    color: crimson;
+.proj-btn:hover{
+    border: none;
+    color: white;
+    box-shadow: 0 0 20px crimson;
+    text-shadow: 0 1px 2px crimson;
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -660,26 +724,15 @@ section{
     padding-top: 10px;
     resize: none;
 }
-.contact .right form .button{
-    height: 47px;
-    width: 170px;
-}
-.contact .right form .button button{
-    width: 100%;
-    height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
-    color: #fff;
-    outline: none;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 6px;
+.button #btn{
     cursor: pointer;
-    transition: all 0.3s ease;
-}
-.contact .right form .button button:hover{
-    color: crimson;
-    background: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 3px 3px black;
 }
 
 /* footer section styling */
