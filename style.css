@@ -493,7 +493,9 @@ body{
 .skills-content .right .py::before{
     width: 75%;
 }
+
 /*Projects section*/
+
 #projects{
     font-family: 'Poppins',sans-serif;
 }
@@ -502,8 +504,8 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 20px 0 20px 0;
     font-family: 'Ubuntu',sans-serif;
 }
 .section-title::before{
@@ -529,10 +531,10 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
     transform: translateX(-50%);
 }
-#projects .projects {
+#projects .projects-container {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 20px auto;
 	padding: 0;
 }
 #projects .projects-header h1 {
