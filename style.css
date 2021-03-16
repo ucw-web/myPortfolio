@@ -968,9 +968,6 @@ footer span a:hover{
     }
 } */
 @media(max-width: 416px){
-    .max-width{
-        padding: 0;
-    }
     .skills{
         padding: 0;
     }
