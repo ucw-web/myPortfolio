@@ -350,7 +350,7 @@ section{
 
 /*Skills Section*/
 section{
-    padding: 100px 0;
+    padding: 0;
 }
 @keyframes bg{
     0%,100%{
@@ -392,31 +392,33 @@ section{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
     font-family: 'Ubuntu',sans-serif;
 }
-.skills .title::before{
-    content: "";
-    position: absolute;
-    bottom:0px;
-    left: 50%;
-    width: 250px;
-    height: 3px;
-    background:#fff;
-    transform: translateX(-50%);
+.decoratedLine{
+    overflow: hidden;
+    text-align: center;
 }
-
-.skills .title::after{
-    content: "this forms me";
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 5px;
-    background: #111;
-    transform: translateX(-50%);
+.decoratedLine > span{
+   position: relative;
+   display: inline-block;
+   color: crimson;
+   font-size: 20px;
+   font-weight: 600;
+}
+.decoratedLine > span:before, .decoratedLine > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 3px solid;
+   width: 100px; /* half of limiter*/
+   margin: 0 15px;
+   color: black;
+}
+.decoratedLine > span:before{
+   right: 100%;
+}
+.decoratedLine > span:after{
+   left: 100%;
 }
 
 .skills .skills-content{
@@ -888,10 +890,13 @@ footer span a:hover{
         flex: 100%;
     }
     .skills {
-        padding: 10px;
+        padding: 12px;
     }
     .skills .title{
-        margin-bottom: 20px;
+        margin-bottom: 2px;
+    }
+    .decoratedLine{
+        margin-bottom: 5px;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
@@ -902,7 +907,7 @@ footer span a:hover{
 
 @media(max-width: 690px){
     .max-width{
-        padding: 0 23px;
+        padding: 0 10px;
     }
     .home .home-content .text-2{
         font-size: 50px;
@@ -912,7 +917,7 @@ footer span a:hover{
     }
 }
 @media(max-width: 545px){
-    
+
 }
 @media(max-width: 507px){
     .home .home-content .text-1{
@@ -928,6 +933,16 @@ footer span a:hover{
     }
     .icons{
         text-align: center;
+    }
+}
+@media(max-width: 512px){
+    .skills-content{
+        font-size: small;
+    }
+}
+@media(max-width: 416px){
+    .skills-content{
+        font-size: x-small;
     }
 }
 @media only screen and (min-width:947px){
