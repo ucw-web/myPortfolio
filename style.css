@@ -130,7 +130,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-    margin: 10px auto;
+    margin-top: 100px;
 }
 .home .home-content{
     width: 100%;
@@ -197,9 +197,9 @@ body{
     width: 45%;
 }
 /*About section*/
-section{
-    padding: 100px 0;
-}
+/* section{
+    padding: 20px 0;
+} */
 .about, footer{
     font-family: 'Poppins',sans-serif;
 }
@@ -208,8 +208,8 @@ section{
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 100px;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 20px 0;
     font-family: 'Ubuntu',sans-serif;
 }
 .about .title::before{
@@ -349,9 +349,9 @@ section{
 } */
 
 /*Skills Section*/
-section{
-    padding: 20y;
-}
+/* section{
+    padding: 20px;
+} */
 @keyframes bg{
     0%,100%{
         background-color: rgba(0, 0, 0, 0.2);
@@ -627,7 +627,7 @@ section{
 
 /*Contact section*/
 section{
-    padding: 100px 0;
+    padding: 20px 0;
 }
 .contact{
     font-family: 'Poppins',sans-serif;
