@@ -887,10 +887,16 @@ footer span a:hover{
     .about .about-content .right{
         flex: 100%;
     }
+    .skills {
+        padding: 10px;
+    }
+    .skills .title{
+        margin-bottom: 20px;
+    }
     .skills .skills-content .column,
     .contact .contact-content .column{
         width: 100%;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
 }
 
@@ -904,6 +910,9 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+}
+@media(max-width: 545px){
+    
 }
 @media(max-width: 507px){
     .home .home-content .text-1{
