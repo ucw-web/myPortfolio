@@ -150,6 +150,7 @@ body{
 .home .home-content .text-2{
     color: rgb(0, 0, 0);
     font-size: 70px;
+    margin: 10px auto;
     font-weight: 600;
     margin-left: -3px;
     text-shadow: 0 2px 4px white;
@@ -158,7 +159,7 @@ body{
 .home .home-content .text-3{
     color: rgb(2, 2, 49);
     font-size: 40px;
-    margin-top: 5px auto;
+    margin-bottom: 20px;
     text-shadow: 0 2px 4px white;
 }
 .home .home-content .text-3 span{
@@ -166,7 +167,7 @@ body{
     font-weight: 500;
     text-shadow: 0 2px 3px black
 }
-.home .home-content .icons{
+/* .home .home-content .icons{
     margin: 40px 0;
 }
 .home .home-content .icons i{
@@ -184,7 +185,7 @@ body{
     -moz-transform: rotateZ(720deg);
     transform: rotateZ(720deg);
     text-shadow: none;
-}
+} */
 .home .home-content .left{
     width: 55%;
 }
@@ -686,7 +687,7 @@ section{
     text-align: justify;
 }
 
-.contact .contact-content .left .icons{
+/* .contact .contact-content .left .icons{
     margin: 10px 0;
 }
 
@@ -699,7 +700,7 @@ section{
 
 .contact .contact-content .left .icons2 i:hover{
     transform: scale(1.50);
-}
+} */
 
 .contact .contact-content .row{
     display: flex;
