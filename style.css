@@ -73,22 +73,23 @@ body{
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color: white;
 }
 .navbar .menu li a:after{
     content: "";
     display: block;
     height: 2px;
-    background-color: red;
+    background-color: white;
     transform: scaleX(0);
     transition: transform 0.3s;
 }
 .navbar .menu li a:hover::after{
     transform: scaleX(1.5);
     transition: transform 0.3s;
+    
 }
 .navbar.sticky .menu li a:hover{
-    color: crimson;
+    color: white;
 }
 
 /*Menu Button*/
@@ -144,14 +145,14 @@ body{
     color: rgb(2, 2, 49);
     font-size: 26px;
     font-weight: 800;
-    text-shadow: 0 1px 6px white;
+    text-shadow: 0 2px 5px white;
 }
 .home .home-content .text-2{
     color: rgb(0, 0, 0);
     font-size: 70px;
     font-weight: 600;
     margin-left: -3px;
-    text-shadow: 0 2px 5px white;
+    text-shadow: 0 2px 4px white;
     
 }
 .home .home-content .text-3{
