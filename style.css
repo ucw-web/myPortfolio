@@ -144,7 +144,7 @@ body{
 .home .home-content .text-1{
     color: rgb(2, 2, 49);
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 0 1px 6px white;
 }
 .home .home-content .text-2{
@@ -159,7 +159,7 @@ body{
 .home .home-content .text-3{
     color: rgb(2, 2, 49);
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 25px;
     text-shadow: 0 1px 6px white;
 }
