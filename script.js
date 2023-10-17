@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Senior Systems Engineer at Infosys", "B. Tech Graduate in Electronic and Telecommunication Engineering", "Coder", "Pet Lover"],
+        strings: ["Senior Systems Engineer at Infosys", "B. Tech Graduate in Electronic and Telecommunication Engg.", "Coder", "Pet Lover"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
