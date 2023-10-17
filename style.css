@@ -93,7 +93,7 @@ body{
 }
 
 /*Menu Button*/
-.menu-btn{
+.menu-btn .fa-solid{
     color: #111;
     font-size: 23px;
     cursor: pointer;
@@ -143,7 +143,6 @@ body{
 }
 .home .home-content .text-1{
     color: rgb(2, 2, 49);
-    margin: 5px auto;
     font-size: 26px;
     font-weight: 800;
     text-shadow: 0 2px 5px white;
@@ -152,7 +151,6 @@ body{
     color: rgb(0, 0, 0);
     font-size: 70px;
     font-weight: 600;
-    margin: 10px auto;
     margin-left: -3px;
     text-shadow: 0 2px 4px white;
     
@@ -160,7 +158,7 @@ body{
 .home .home-content .text-3{
     color: rgb(2, 2, 49);
     font-size: 40px;
-    margin: 10px auto;
+    margin-top: 5px auto;
     text-shadow: 0 2px 4px white;
 }
 .home .home-content .text-3 span{
@@ -177,7 +175,7 @@ body{
     animation-iteration-count: infinite;
     animation-delay: 2s;
     margin-right: 20px;
-    color: black;
+    color: rgb(252, 239, 223);
     text-shadow: 0 3px 3px black;
     transition: all 0.5s ease-in-out;
 }
@@ -185,6 +183,7 @@ body{
     -webkit-transform: rotateZ(720deg);
     -moz-transform: rotateZ(720deg);
     transform: rotateZ(720deg);
+    text-shadow: none;
 }
 .home .home-content .left{
     width: 55%;
